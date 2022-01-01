@@ -1,6 +1,5 @@
-import './Profile.module.css';
 import s from './Profile.module.css';
-console.log(s)
+import MyPosts from "./MyPosts/MyPosts";
 
 const Profile = () => {
     return (
@@ -12,18 +11,7 @@ const Profile = () => {
                 Ava + description
                 <img src='https://interactive-examples.mdn.mozilla.net/media/cc0-images/grapefruit-slice-332-332.jpg'/>
             </div>
-            <div>
-                My posts
-                <div>
-                    New post
-                </div>
-                <div className={`${s.item} ${s.active}`}>
-                    post 1
-                </div>
-                <div className={s.item}>
-                    post 2
-                </div>
-            </div>
+            <MyPosts/>
         </div>
     )
 }

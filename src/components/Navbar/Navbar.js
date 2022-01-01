@@ -1,4 +1,3 @@
-import './Navbar.module.css';
 import s from './Navbar.module.css';
 
 const Navbar = () => {
