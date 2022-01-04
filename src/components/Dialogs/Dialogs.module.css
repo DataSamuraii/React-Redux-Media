@@ -6,17 +6,12 @@
     display: block;
     text-decoration: none;
     color: black;
-}
-
-.dialogs_list__item{
     padding: 5px;
 }
-
 .active{
     color: gold;
     padding: 5px;
 }
-
-.messages__item{
+.messages_list__item{
     padding: 3px;
 }
